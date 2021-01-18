@@ -1,8 +1,7 @@
 name: simple_currency_format
-description: A new Flutter package project.
+description: A simple API to format currency values. As pattern, the package use pt_BR locale and R$ symbol.
 version: 1.0.0
-author:
-homepage:
+homepage: https://github.com/Noninus/simple_currency_format
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

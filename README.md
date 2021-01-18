@@ -26,4 +26,3 @@ print(removeZeroDecimal(0500));
 Output:
 
 > 500
-# simple_currency_format

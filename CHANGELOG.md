@@ -1,3 +1,7 @@
+## [1.0.3]
+
+* `intl` package downgrade to `^0.15.8`
+
 ## [1.0.2]
 
 * Added dartdoc comments

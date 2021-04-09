@@ -6,10 +6,8 @@ import 'package:intl/intl.dart';
 ///     currencyFormat(10);
 ///     // => R$ 10,00
 currencyFormat(num value, {String locale: "pt_BR", String symbol: "R\$"}) {
-  if (value != null) {
-    NumberFormat reais = NumberFormat.currency(locale: locale, symbol: symbol);
-    return reais.format(value);
-  }
+  NumberFormat reais = NumberFormat.currency(locale: locale, symbol: symbol);
+  return reais.format(value);
 }
 
 /// Outputs num with zero decimal removed

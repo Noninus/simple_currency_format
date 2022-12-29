@@ -1,6 +1,6 @@
 name: simple_currency_format
 description: A simple API to format currency values. As pattern, the package use pt_BR locale and R$ symbol.
-version: 1.0.5
+version: 1.0.6
 homepage: https://github.com/Noninus/simple_currency_format
 
 environment:

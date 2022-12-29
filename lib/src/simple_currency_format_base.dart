@@ -27,6 +27,9 @@ String removeZeroDecimal(n) {
 ///  Example:
 ///     removeZeroDecimal(1254);
 ///     => R$ 12,54
+///  Example:
+///     removeZeroDecimal(12546);
+///     => R$ 12,54
 String maskedCurrencyFormat(n, {String locale = "pt_br"}) {
   final formatCurrency = NumberFormat.simpleCurrency(locale: locale);
   return formatCurrency.format(n / 100);

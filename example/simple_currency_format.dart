@@ -7,5 +7,5 @@ main() {
 
   print(removeZeroDecimal(00500)); //returns 500
 
-  print(maskedCurrencyFormat(5340));
+  print(maskedCurrencyFormat(532424));
 }

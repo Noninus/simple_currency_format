@@ -20,3 +20,16 @@ currencyFormat(num value, {String locale: "pt_BR", String symbol: "R\$"}) {
 String removeZeroDecimal(n) {
   return n.toStringAsFixed(n.truncateToDouble() == n ? 0 : 2);
 }
+
+/// Outputs num formated to show in a text
+///
+/// Example:
+///     removeZeroDecimal(12);
+///     => R$ 0,12
+///  Example:
+///     removeZeroDecimal(1254);
+///     => R$ 12,54
+String maskedCurrencyFormat(n, {String locale = "pt_br"}) {
+  final formatCurrency = NumberFormat.simpleCurrency(locale: locale);
+  return formatCurrency.format(n / 100);
+}
